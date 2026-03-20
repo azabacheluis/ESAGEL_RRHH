@@ -176,7 +176,8 @@
   <div class="htag"><span class="sym">&#9733;</span> 150 horas académicas</div>
   </div>
   <div class="hero-btns"><a href="https://wa.me/51942212181?text=Hola%2C%20quiero%20inscribirme%20en%20RRHH%20y%20Planillas" class="hbtn hbtn-p" target="_blank">Inscribirme por WhatsApp &#10132;</a><a href="#modulos" class="hbtn hbtn-s">Ver Temario &#8595;</a></div>
-  </div><div class="hero-r"><div class="hero-card"><div class="hero-img"><img src="img/rrhh-hero.webp" alt="Especialización ESAGEL" style="width:100%;height:100%;object-fit:cover;border-radius:18px;position:absolute;top:0;left:0;z-index:0;opacity:.15"><div class="hero-img-stats"><div class="him-s"><div class="him-n">+3000</div><div class="him-l">Alumnos</div></div><div class="him-s"><div class="him-n">+20</div><div class="him-l">Empresas</div></div><div class="him-s"><div class="him-n">150h</div><div class="him-l">Académicas</div></div></div></div>
+</div><div class="hero-r"><div class="hero-card">
+  <div class="hero-img"><img src="img/logo/Inicial.jpeg" alt="Especialización ESAGEL" style="width:100%;height:100%;object-fit:cover;border-radius:18px;position:absolute;top:0;right:0;z-index:0;opacity:1"><div class="hero-img-stats"><div class="him-s"><div class="him-n">+3000</div><div class="him-l">Alumnos</div></div><div class="him-s"><div class="him-n">+20</div><div class="him-l">Empresas</div></div><div class="him-s"><div class="him-n">150h</div><div class="him-l">Académicas</div></div></div></div>
   <div class="fl-a">
     <div class="ft">
         <img src="img/logo/logo_esagel.jpg" alt="Logo ESAGEL" style="height: 80px;border-radius: 10px;">
@@ -243,17 +244,101 @@
   <div class="cert-mod"><span>Certificado digital</span><h4>Diseño Organizacional</h4></div>
   <div class="cert-mod"><span>Certificado digital</span><h4>Atracción, Selección y Retención del Talento</h4></div>
   <div class="cert-mod"><span>Certificado digital</span><h4>Capacitación y Desarrollo</h4></div>
-  </div></div></div></section>
+  <div style="width: 100%; text-align: center; margin-top: 25px; grid-column: 1 / -1;">
+    <div style="display: inline-block; padding: 10px 25px; background: rgba(255,255,255,0.05); border: 1px dashed var(--accent2); border-radius: 50px; color: var(--white); font-size: 0.95rem; font-weight: 500;">
+      <span style="color: var(--accent2); margin-right: 8px;">✔</span> Cada módulo cuenta con su propio certificado digital independiente
+    </div>
+  </div>  
+</div></div></div></section>
   
-  <section class="sec doc-sec" id="docentes"><div class="ctn">
-  <div class="sh rv"><div class="sh-ey">DOCENTES EJECUTIVOS</div><h2 class="sh-t">+10 años de <span class="hl">experiencia</span></h2></div>
-  <div class="doc-grid">
-  <div class="dc rv"><div class="dc-av"><img src="img/docentes/michelle.png" alt="Docente" style="width:100px;height:100px;object-fit:cover;border-radius:50%" onerror="this.style.display='none';this.parentElement.textContent='MS'"></div><h3>Michell Solari Jimenez</h3><div class="dc-role">Gerente de Gestión Humana</div><div class="dc-co">GESTION EMPRESARIAL</div></div>
-  <div class="dc rv"><div class="dc-av"><img src="img/docentes/joel valverde.png" alt="Docente" style="width:100px;height:100px;object-fit:cover;border-radius:50%" onerror="this.style.display='none';this.parentElement.textContent='JV'"></div><h3>Joel Giovanni Valverde Campos</h3><div class="dc-role">Gerente de RRHH Peru-Brasil</div><div class="dc-co">GESTION INTERNACIONAL</div></div>
-  <div class="dc rv"><div class="dc-av"><img src="img/docentes/Manuel Olivares Perez.jpg" alt="Docente" style="width:100px;height:100px;object-fit:cover;border-radius:50%" onerror="this.style.display='none';this.parentElement.textContent='MO'"></div><h3>Manuel Olivares Perez</h3><div class="dc-role">Jefe de Recursos Humanos</div><div class="dc-co">GESTIÓN HUMANA</div></div>
-  <div class="dc rv"><div class="dc-av"><img src="img/docentes/james iparra.png" alt="Docente" style="width:100px;height:100px;object-fit:cover;border-radius:50%" onerror="this.style.display='none';this.parentElement.textContent='JI'"></div><h3>James Iparraguirre Benites</h3><div class="dc-role">Jefe de Recursos Humanos</div><div class="dc-co">GESTION HUMANA</div></div>
-  <div class="dc rv"><div class="dc-av"><img src="img/docentes/Robert Vasquez Vega.jpg" alt="Docente" style="width:100px;height:100px;object-fit:cover;border-radius:50%" onerror="this.style.display='none';this.parentElement.textContent='RV'"></div><h3>Robert Vasquez Vega</h3><div class="dc-role">Jefe de Recursos Humanos</div><div class="dc-co">GESTIÓN HUMANA</div></div>
-  </div></div></section>
+<section class="sec doc-sec" id="docentes">
+  <div class="ctn">
+    <div class="sh rv">
+      <div class="sh-ey">DOCENTES EJECUTIVOS</div>
+      <h2 class="sh-t">+10 años de <span class="hl">experiencia</span></h2>
+    </div>
+
+    <style>
+      /* Estilos para agrandar las fotos y que el componente se adapte */
+      .doc-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+      }
+      .dc {
+        flex: 1 1 320px; /* Tarjetas más anchas para que no se vean apretadas */
+        max-width: 420px;
+        padding: 40px 25px; /* Más espacio interno */
+        background: #f9f9f9; /* Ajusta según tu fondo (claro/oscuro) */
+        border-radius: 15px;
+        text-align: center;
+      }
+      .dc-av {
+        width: 160px; /* Tamaño agrandado */
+        height: 160px;
+        margin: 0 auto 20px;
+      }
+      .dc-av img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      }
+      .dc h3 { font-size: 1.25rem; margin-bottom: 8px; }
+      .dc-role { color: #d63384; font-weight: bold; margin-bottom: 4px; } /* Ajusta el color al de tu marca */
+      .dc-co { color: #666; font-size: 0.9rem; }
+    </style>
+
+    <div class="doc-grid">
+      <div class="dc rv">
+        <div class="dc-av">
+          <img src="img/docentes/michelle.png" alt="Docente" onerror="this.style.display='none';this.parentElement.textContent='MS'">
+        </div>
+        <h3>Michell Solari Jimenez</h3>
+        <div class="dc-role">Gerente de Gestión Humana</div>
+        <div class="dc-co">GESTION EMPRESARIAL</div>
+      </div>
+      
+      <div class="dc rv">
+        <div class="dc-av">
+          <img src="img/docentes/joel valverde.png" alt="Docente" onerror="this.style.display='none';this.parentElement.textContent='JV'">
+        </div>
+        <h3>Joel Giovanni Valverde Campos</h3>
+        <div class="dc-role">Gerente de RRHH Peru-Brasil</div>
+        <div class="dc-co">GESTION INTERNACIONAL</div>
+      </div>
+      
+      <div class="dc rv">
+        <div class="dc-av">
+          <img src="img/docentes/Manuel Olivares Perez.jpg" alt="Docente" onerror="this.style.display='none';this.parentElement.textContent='MO'">
+        </div>
+        <h3>Manuel Olivares Perez</h3>
+        <div class="dc-role">Jefe de Recursos Humanos</div>
+        <div class="dc-co">GESTIÓN HUMANA</div>
+      </div>
+      
+      <div class="dc rv">
+        <div class="dc-av">
+          <img src="img/docentes/james iparra.png" alt="Docente" onerror="this.style.display='none';this.parentElement.textContent='JI'">
+        </div>
+        <h3>James Iparraguirre Benites</h3>
+        <div class="dc-role">Jefe de Recursos Humanos</div>
+        <div class="dc-co">GESTION HUMANA</div>
+      </div>
+      
+      <div class="dc rv">
+        <div class="dc-av">
+          <img src="img/docentes/Robert Vasquez Vega.jpg" alt="Docente" onerror="this.style.display='none';this.parentElement.textContent='RV'">
+        </div>
+        <h3>Robert Vasquez Vega</h3>
+        <div class="dc-role">Jefe de Recursos Humanos</div>
+        <div class="dc-co">GESTIÓN HUMANA</div>
+      </div>
+    </div>
+  </div>
+</section>
   
   <section class="sec ben-sec"><div class="ctn">
   <div class="sh rv"><div class="sh-ey">INCLUYE</div><h2 class="sh-t">Beneficios de la <span class="hl">Especialización</span></h2></div>
